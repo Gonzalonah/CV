@@ -24,3 +24,4 @@ module.exports={
           })
     ]
 };
+//instalar css y compress img, ver lo de svg
