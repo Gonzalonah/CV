@@ -1,0 +1,20 @@
+{
+  "name": "Cv",
+  "version": "1.0.0",
+  "description": "Hello this is a CV project for me, Gonzalo Nahuel Rolón. If you are going to use this page as a base please mention me.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gonzalonah/Cv.git"
+  },
+  "keywords": [],
+  "author": "Gonzalo Nahuel Rolon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gonzalonah/Cv/issues"
+  },
+  "homepage": "https://github.com/Gonzalonah/Cv#readme"
+}
