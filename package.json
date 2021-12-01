@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Hello this is a CV project for me, Gonzalo Nahuel Rolón. If you are going to use this page as a base please mention me.",
   "main": "index.js",
-  
   "scripts": {
-    "s": "servor init index.html 8080 --reload",
+    "s": "servor dist index.html 8080 --reload",
     "build": "webpack --mode production",
     "dev": "webpack --mode development --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,5 +24,9 @@
     "webpack": "^5.64.4",
     "webpack-cli": "^4.9.1",
     "servor": "4.0.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
