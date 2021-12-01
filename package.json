@@ -6,7 +6,7 @@
   "scripts": {
     "s": "servor dist index.html 8080 --reload",
     "build": "webpack --mode production",
-    "dev": "webpack --mode development --watch",
+    "dev": "webpack-dev-server ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,11 +21,17 @@
   },
   "homepage": "https://github.com/Gonzalonah/Cv#readme",
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "servor": "4.0.0",
     "webpack": "^5.64.4",
     "webpack-cli": "^4.9.1",
-    "servor": "4.0.0"
+    "webpack-dev-server": "^4.6.0"
   },
   "dependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "html-webpack-plugin": "^5.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }
