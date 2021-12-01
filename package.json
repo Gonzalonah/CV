@@ -6,7 +6,9 @@
   
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "s": "servor init index.html 8080 --reload"
+    "s": "servor init index.html 8080 --reload",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch"
   },
   "repository": {
     "type": "git",
