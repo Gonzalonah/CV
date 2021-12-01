@@ -1,1 +1,11 @@
 npm init -y
+// servor servidor estatico
+    npm install -g servor (instaciones)
+-- en package.json 
+    " scripts " : { 
+        " inicio " : " servicio www index.html 8080 --reload --browse " 
+    }
+------------------------
+instalamos webpack
+    npm i webpack webpack-cli -D
+    

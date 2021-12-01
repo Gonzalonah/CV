@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Hello this is a CV project for me, Gonzalo Nahuel Rolón. If you are going to use this page as a base please mention me.",
   "main": "index.js",
+  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "s": "servor init index.html 8080 --reload"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Gonzalonah/Cv/issues"
   },
-  "homepage": "https://github.com/Gonzalonah/Cv#readme"
+  "homepage": "https://github.com/Gonzalonah/Cv#readme",
+  "devDependencies": {
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "servor": "4.0.0"
+  }
 }
