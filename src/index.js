@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
- 
-ReactDOM.render(
-    <h1>Hola mundo con React ✌</h1>,
+import time from './time.js';
+ ReactDOM.render(
+    <h2>🖐Hola🤙</h2>,
     document.getElementById('app')
-)
+);
+time();

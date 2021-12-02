@@ -14,7 +14,22 @@ module.exports={
                         presets: ['@babel/preset-react','@babel/preset-env']
                     },
                 },
-            }
+            },
+            {
+                test: /\.css$/,
+                use: ['style-loader','css-loader']
+            },
+            {
+                type:'asset',
+                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+               /* use: [
+                  {
+                    loader: 'url-loader',
+                    options: {
+                      limit: 8192 //对图片的大小做限制，8kb
+                    }*/
+                  }
+        
         ],
     },
     plugins:[
