@@ -1,8 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import time from './time.js';
- ReactDOM.render(
-    <h2>🖐Hola🤙</h2>,
+import styles from './index.css';
+
+ReactDOM.render(
+    <h1 id="time">🖐Hola🤙</h1>,
     document.getElementById('app')
 );
+
 time();

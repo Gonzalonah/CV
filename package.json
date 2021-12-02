@@ -1,6 +1,6 @@
 {
   "name": "Cv",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Hello this is a CV project for me, Gonzalo Nahuel Rolón. If you are going to use this page as a base please mention me.",
   "main": "index.js",
   "scripts": {
