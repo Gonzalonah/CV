@@ -14,6 +14,6 @@ body {
     color: #fff;
 padding: 1rem;
 }
-time:current{
+#time:current{
     transition-duration: 0.5s;
 }

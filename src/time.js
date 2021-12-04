@@ -5,10 +5,11 @@ export default function time () {
     ReactDOM.render(
       <h1>🖐Hi🤙</h1>,
       document.getElementById('app')
-  )},3000)
+  )},3000);
   setTimeout(function(){ 
     ReactDOM.render(
-      <h1>🖐🤙</h1>,
+      <><nav id='nav'></nav><main></main><footer></footer></>
+      ,
       document.getElementById('app')
-  )},3000)
+  )},6000)
   }

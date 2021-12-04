@@ -1,7 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import $ from 'jquery';
+
 import time from './time.js';
-import styles from './index.css';
+import nav from './nav.js';
+
+import './index.css';
+import './nav.css';
+
 
 ReactDOM.render(
     <h1 id="time">🖐Hola🤙</h1>,
@@ -9,3 +15,4 @@ ReactDOM.render(
 );
 
 time();
+nav();
